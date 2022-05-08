@@ -271,8 +271,8 @@ function Feed() {
                                     <CardMedia
                                         component="img"
                                         height="250"
-                                        width="200"
-                                        image={`http://localhost:8080/${posts.img}`}
+                                        width="160"
+                                        image={`${posts.img}`}
                                         alt="not found"
                                     />
                                     <CardContent>
